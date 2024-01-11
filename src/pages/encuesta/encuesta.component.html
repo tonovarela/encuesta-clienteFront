@@ -1,0 +1,33 @@
+
+
+<div class="container">
+  <form [formGroup]="formGroup">
+    <div style="display: flex; align-items: center; justify-content: center; margin-top: 30px;">
+      <div>
+        <h1 style="text-align: center;">{{etiquetaView?.etiqueta || ''}}</h1>
+        <h3 style="text-align: center;">{{etiquetaView?.sugerencia || ''}}</h3>
+      </div>
+      
+
+      
+    </div>
+    
+    <p-rating [cancel]="false" formControlName="calificacion"  iconOnClass="grande"   (onRate)="onRate($event)">
+      <ng-template pTemplate="onicon">
+        <img src="assets/img/star-rate.svg" width="100px" height="75px" />
+    </ng-template>
+    <ng-template pTemplate="officon">
+      <img src="assets/img/star-empty.svg" width="100px" height="75px" />
+    </ng-template>      
+    </p-rating>
+
+    <div style="display: flex; align-items: center; justify-content: center; margin-top: 30px;">
+     <a href="#"> Quieres agregar algo mas?</a>
+    </div>
+  </form>
+  
+</div>
+
+<!-- <pre>
+  {{formGroup.value | json}}
+</pre> -->

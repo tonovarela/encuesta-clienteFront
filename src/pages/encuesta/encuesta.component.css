@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20%;
+
+
+}
+
+.ui-rating a {
+  color: yellow !important;
+}
+
+.grande {
+  color: yellow !important;
+}
+/* :host ::ng-deep  
+    .p-rating-icon:not(.p-rating-cancel), 
+:host ::ng-deep  
+    .p-rating-icon:not(.p-rating-cancel):hover { 
+    color: green !important; 
+} */
