@@ -1,4 +1,4 @@
 export const environment = {
-    URL_ROOT:"https://mcckhhqq-3000.usw3.devtunnels.ms",
+    URL_ROOT:"http://localhost:3000/api",
     production:true
 };

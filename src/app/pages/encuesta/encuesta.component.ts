@@ -62,10 +62,7 @@ export class EncuestaComponent implements OnInit {
       this.respuestas = response.respuestas;
       this.respuestasSeleccionadas = [];
     });
-
-
   }
-
 
   async validarEncuesta() {
     const parametros: any = await firstValueFrom(this.activateRoute.params);
@@ -83,8 +80,7 @@ export class EncuestaComponent implements OnInit {
           
           return;
         }
-        this.identificador = identificador;
-        console.log(referencia);
+        this.identificador = identificador;        
         this.nombreTrabajo = referencia.nombreTrabajo;
       })
       .catch(error => {
