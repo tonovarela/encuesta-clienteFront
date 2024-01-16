@@ -1,6 +1,6 @@
 
 
 export const environment = {
-    URL_ROOT:"/servicios-clientes/api",
+    URL_ROOT:"/servicio-clientes/api",
     production:true
 };
