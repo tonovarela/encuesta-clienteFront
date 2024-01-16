@@ -1,3 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
+
+
+body {
+     background-color: #656e7666;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 18px;
+}
+
+.cuadernillo {
+    font-size: 16px;
+}
+
+#bastanteMal {
+    font-size: 24px;
+}
+
+
+
+#estrellitas label {
+    font-size: 2em;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#estrellitas input:checked + label {
+    color: #ffc107;
+}
+
+.checkbox-label {
+    margin-right: 20px;
+}
+
+#agregarAlgo, #registrar {
+    margin-top: 20px;
+}
