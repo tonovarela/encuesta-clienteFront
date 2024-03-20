@@ -63,7 +63,7 @@
           </div>
           }}
           <div class="d-grid gap-2 mt-5">
-            <button (click)="registrarCalificacion()" class="btn btn-primary ">Registrar</button>
+            <button [disabled]="formGroup.invalid" (click)="registrarCalificacion()" class="btn btn-primary ">Registrar</button>
           </div>
         
           }@else{
@@ -71,6 +71,7 @@
             Gracias por el registro
           </div>
           }
+         
         </div>
       </div>
     </div>

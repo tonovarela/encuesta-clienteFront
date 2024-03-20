@@ -3,8 +3,9 @@
 @import "primeng/resources/primeng.css";
 
 
-body {
-     background-color: #656e7666;
+body {     
+     background-image: url('assets/img/fondo_encuesta.jpg');
+     
 }
 
 .container {

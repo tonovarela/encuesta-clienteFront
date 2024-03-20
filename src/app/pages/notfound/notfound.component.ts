@@ -7,7 +7,11 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [
     CommonModule,
   ],
-  template: `<p>Recurso no encontrado</p>`,
+  template: `<div class="card ">
+  <div class="d-flex justify-content-center ">
+      <h1>Recurso no encontrado</h1>
+  </div>
+</div>`,
   styleUrl: './notfound.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
